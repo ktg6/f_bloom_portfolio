@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#wapper {
+	width: 920px;
+	height: 1740px;
+}
+
+#fbloom_header {
+	width: 920px;
+	height: 200px;
+}
+
+.logo {
+	margin: 10px 0 0 20px;
+}
+
+#fbloom_nav {
+	position: absolute;
+	top: 20px;
+	left: 250px;
+}
+
+.nav_info {
+	display: block;
+	width: 100%;
+}
+
+
+
