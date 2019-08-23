@@ -4,8 +4,9 @@
 <meta charset="UTF-8">
 
 <!--リセットCSSの読み込み-->
+	<!--
 <link href="_resets.scss" rel="stylesheet">
-
+	-->
 	<!--style.scssファイルの読み込み-->
 <link href="style.scss" rel="stylesheet">
 	
@@ -23,11 +24,15 @@
 <body>
 	<div id="wapper">
 		<header id="fbloom_header">
-		<img src="image/logo.png" alt="ロゴ画像" class="logo" width="200px" height="140px">
-			<nav id="fbloom_nav">
+			<h1><img src="image/logo.png" alt="ロゴ画像" class="logo" width="200px" height="140px"></h1>
+			<div id="fbloom_nav">
 				<p class="nav_info">営業時間：AM10:00 ~ PM20:00　TEL:03-3xxx-0000</p>
-				
-			</nav><!--fbloom_nav-->
+				<div class="sns_iconblock">
+					<a href="#"><img src="image/twitter.svg" alt="twitterロゴ" class="sns_logo" width="30px" height="30px"></a>
+					<a href="#"><img src="image/facebook.svg" alt="facebookロゴ" class="sns_logo" width="30px" height="30px"></a>
+					<a href="#"><img src="image/instagram.svg" alt="instagramロゴ" class="sns_logo" width="30px" height="30px"></a>
+				</div>
+			</div><!--fbloom_nav-->
 		
 			
 		</header><!--fbloom_header-->

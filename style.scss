@@ -1,13 +1,14 @@
+@import "index.html"
 @charset "UTF-8";
 /* CSS Document */
 
 #wapper {
-	width: 920px;
+	width: 960px;
 	height: 1740px;
 }
 
 #fbloom_header {
-	width: 920px;
+	width: 960px;
 	height: 200px;
 }
 
@@ -19,11 +20,22 @@
 	position: absolute;
 	top: 20px;
 	left: 250px;
+	display: flex;
+	align-items: center;
+	
 }
 
 .nav_info {
 	display: block;
-	width: 100%;
+	font-size: 18px;
+}
+
+.sns_iconblock {
+	
+}
+
+img.sns_logo {
+	padding-left: 30px;
 }
 
 
