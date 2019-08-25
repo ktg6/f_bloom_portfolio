@@ -1,6 +1,24 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*
+初期リセット */
+
+html {
+	font-size: 14px;
+}
+html *,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
 #wapper {
 	max-width: 960px;
 	height: 1740px;
@@ -27,15 +45,22 @@
 
 .nav_info {
 	display: block;
-	font-size: 18px;
+	font-size: 1.3rem;
+}
+
+@media (max-width: 768px) {
+	.nav_info {
+		font-size: 1rem;
+	}
 }
 
 .sns_block {
 	margin-left: 20px;
+	display: flex;
 }
 
 img.sns_logo {
-	padding-left: 15px;
+	margin-left: 20px;
 }
 
 img.sns_logo:hover {
@@ -49,6 +74,10 @@ img.sns_logo:hover {
 	max-width: 60vw;
 }
 
+#header_navlink > li {
+	flex: 0 0 20%;
+}
+
 .nav_link_text {
 	list-style: none;
 	display: flex;
@@ -58,6 +87,12 @@ img.sns_logo:hover {
 	font-size: 2.5rem;
     padding-left: 30px;
 	font-family: Avenir, "Helvetica neue", Helvetica, YuGothic, "Yu Gothic", "Hiragino Sans", ヒラギノ角ゴシック, メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+}
+
+@media (max-width: 768px) {
+	.link_text_nav {
+	font-size: 1.5rem;
+	}
 }
 
 .nav_a {
