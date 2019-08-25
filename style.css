@@ -2,12 +2,12 @@
 /* CSS Document */
 
 #wapper {
-	width: 960px;
+	max-width: 960px;
 	height: 1740px;
 }
 
 #fbloom_header {
-	width: 960px;
+	max-width: 960px;
 	height: 200px;
 }
 
@@ -21,7 +21,7 @@
 	left: 260px;
 	display: flex;
 	align-items: center;
-	width: 53vw;
+	max-width: 53vw;
 	justify-content: space-between;
 }
 
@@ -46,7 +46,7 @@ img.sns_logo:hover {
 	position: absolute;
 	top: 70px;
 	left: -70px;
-	width: 60vw;
+	max-width: 60vw;
 }
 
 .nav_link_text {

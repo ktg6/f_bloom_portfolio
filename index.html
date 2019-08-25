@@ -8,12 +8,9 @@
 	<!--style.scssファイルの読み込み-->
 <link href="style.css" rel="stylesheet">
 
-
 <!--fancyboxプラグイン-->
-<!--
 <link rel="stylesheet" href="fancybox-master/dist/jquery.fancybox.css">
 <!--jQueryライブラリ-->
--->
 <!--
 <script src="fancybox-master/dist/jquery-3.4.1.min.js"></script>
 -->
@@ -47,10 +44,12 @@
 		</header><!--fbloom_header-->
 		
 			<main id="main_contents">
-				<div id="slider">				
-					<a class="fancybox" href="fancybox-master/dist/jquery.fancybox.css"><img src="image/flower_018.jpg" alt="紹介用の画像" /></a>
-					<a class="fancybox" href="fancybox-master/dist/jquery.fancybox.css"><img src="image/flower_048.jpg" alt="紹介用の画像" /></a>
-					<a class="fancybox" href="fancybox-master/dist/jquery.fancybox.css"><img src="image/flower_051.jpg" alt="紹介用の画像" /></a>
+				<div id="slider">
+					<figure>
+						<a href="fancybox-master/dist/jquery.fancybox.css"><img src="image/flower_018.jpg" alt="紹介用の画像" /></a>
+						<a href="fancybox-master/dist/jquery.fancybox.css"><img src="image/flower_048.jpg" alt="紹介用の画像" /></a>
+						<a href="fancybox-master/dist/jquery.fancybox.css"><img src="image/flower_051.jpg" alt="紹介用の画像" /></a>
+					</figure>
 				</div><!--slider-->
 				<div id="plan">	
 					
@@ -76,8 +75,8 @@
 
 	</div><!--wapper-->
 	
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="jquery.fancybox.min.js"></script>
+<script src="fancybox-master/dist/jquery.fancybox.css"></script>
+<script src="fancybox-master/dist/jquery.fancybox.min.js"></script>
 <script>
 	$('[data-fancybox]').fancybox();
 </script>
