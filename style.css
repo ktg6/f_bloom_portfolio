@@ -2,8 +2,7 @@
 /* CSS Document */
 
 /*
-初期リセット */
-
+〜〜〜　初期リセット 〜〜〜　*/
 html {
 	font-size: 14px;
 }
@@ -55,7 +54,7 @@ img {
 }
 
 .sns_block {
-	margin-left: 20px;
+	margin-left: 25vw;
 	display: flex;
 }
 
@@ -124,17 +123,71 @@ img.sns_logo:hover {
   visibility: visible;
 }
 
-#plan {
+
+/*
+〜〜〜　プランのブロック 〜〜〜　*/
+.contents_block {
 	background: #A1A1A1;
 	max-width: 960px;
-	height: 500px;
+	height: 400px;
 }
 
-.plan_top {
+.font_top {
 	font-size: 4rem;
 	text-align: center;
-	margin-top: 50px;
+	margin: 50px 0 50px;
 }
+
+.plan_block {
+	max-width: 960px;
+	height: auto;
+	margin: 0 auto;
+	margin: 50px 0 30px;
+	display: flex;
+	justify-content: space-around;
+	background: #F88C8E;
+}
+
+.plan_image_block {
+	text-align: center;
+}
+
+.plan_image {
+	margin: 0 auto;
+}
+
+.plan_image_block p {
+	font-size: 1rem;
+}
+
+/*
+〜〜〜　aboutのブロック 〜〜〜　*/
+
+.store_info {
+	margin: 40px 0 10px;
+}
+
+.store_info p {
+	text-align: center;
+	font-size: 1.2rem;
+}
+
+/*
+〜〜〜　aboutのブロック 〜〜〜　*/
+
+
+
+
+
+
+
+
+/*
+〜〜〜　余白設定 〜〜〜　*/
+.mb_10 {
+	margin-bottom: 10px;
+}
+
 
 
 
