@@ -18,11 +18,15 @@ img {
 	height: auto;
 }
 
+/*
+〜〜〜　全体ブロック 〜〜〜　*/
 #wapper {
 	max-width: 960px;
 	height: 1740px;
 }
 
+/*
+〜〜〜　ヘッダーブロック 〜〜〜　*/
 #fbloom_header {
 	max-width: 960px;
 	height: 200px;
@@ -32,6 +36,8 @@ img {
 	margin: 10px 0 0 20px;
 }
 
+/*
+〜〜〜　ナビブロック 〜〜〜　*/
 #fbloom_nav {
 	position: absolute;
 	top: 20px;
@@ -42,6 +48,8 @@ img {
 	justify-content: space-between;
 }
 
+/*
+〜〜〜　テキストの説明文 〜〜〜　*/
 .nav_info {
 	display: block;
 	font-size: 1.3rem;
@@ -53,6 +61,8 @@ img {
 	}
 }
 
+/*
+〜〜〜　SNSボタン 〜〜〜　*/
 .sns_block {
 	margin-left: 25vw;
 	display: flex;
@@ -66,6 +76,8 @@ img.sns_logo:hover {
 	opacity: 0.5;
 }
 
+/*
+〜〜〜　ナビゲーションリンク 〜〜〜　*/
 #header_navlink {
 	position: absolute;
 	top: 70px;
@@ -123,11 +135,17 @@ img.sns_logo:hover {
   visibility: visible;
 }
 
+/*
+〜〜〜　メインブロック 〜〜〜　*/
+
+#main_contents {
+	max-width: 960px;
+	height: auto;
+}
 
 /*
 〜〜〜　プランのブロック 〜〜〜　*/
-.contents_block {
-	background: #A1A1A1;
+.plan_contents_block {
 	max-width: 960px;
 	height: 400px;
 }
@@ -145,7 +163,6 @@ img.sns_logo:hover {
 	margin: 50px 0 30px;
 	display: flex;
 	justify-content: space-around;
-	background: #F88C8E;
 }
 
 .plan_image_block {
@@ -162,6 +179,12 @@ img.sns_logo:hover {
 
 /*
 〜〜〜　aboutのブロック 〜〜〜　*/
+.about_block {
+	max-width: 960px;
+	height: 450px;
+	background: #edf0f040;
+}
+
 
 .store_info {
 	margin: 40px 0 10px;
@@ -173,13 +196,46 @@ img.sns_logo:hover {
 }
 
 /*
-〜〜〜　aboutのブロック 〜〜〜　*/
+〜〜〜　フッターブロック 〜〜〜　*/
 
+#fbloom_footer {
+	max-width: 960px;
+	height: 80px;
+	background:#070707; 
+}
 
+.footer_block {
+	max-width: 960px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	top: 30px;
+}
 
+.footer_nav {
+	display: flex;
+	justify-content: space-between;
+	width: 20vw;
+	margin-left: 70px;
+}
 
+.footer_nav li {
+	font-size: 1rem;
+	color: #fdfcfc;
+}
 
+.footer_p {
+	color: #F9F9F9;
+	width: 120px;
+	font-size: 1rem;
+	display: block;
+	margin: 0 auto;
+}
 
+.sns_footer {
+	display: flex;
+	margin-right: 10%;
+}
 
 
 /*
