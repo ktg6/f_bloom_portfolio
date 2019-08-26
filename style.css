@@ -70,7 +70,6 @@ img.sns_logo:hover {
 #header_navlink {
 	position: absolute;
 	top: 70px;
-	left: -70px;
 	max-width: 60vw;
 }
 
@@ -123,6 +122,18 @@ img.sns_logo:hover {
   bottom: -4px;
   opacity: 1;
   visibility: visible;
+}
+
+#plan {
+	background: #A1A1A1;
+	max-width: 960px;
+	height: 500px;
+}
+
+.plan_top {
+	font-size: 4rem;
+	text-align: center;
+	margin-top: 50px;
 }
 
 
