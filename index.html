@@ -8,12 +8,8 @@
 	<!--style.scssファイルの読み込み-->
 <link href="style.css" rel="stylesheet">
 
-<!--fancyboxプラグイン-->
+<!--fancybox CSS-->
 <link rel="stylesheet" href="fancybox-master/dist/jquery.fancybox.css">
-<!--jQueryライブラリ-->
-<!--
-<script src="fancybox-master/dist/jquery-3.4.1.min.js"></script>
--->
 
 <meta name="viewport" content="width-device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -47,9 +43,9 @@
 			<main id="main_contents">
 				<div id="slider">
 					<figure>
-						<a href="fancybox-master/dist/jquery.fancybox.css"><img src="image/flower_018.jpg" alt="紹介用の画像" /></a>
-						<a href="fancybox-master/dist/jquery.fancybox.css"><img src="image/flower_048.jpg" alt="紹介用の画像" /></a>
-						<a href="fancybox-master/dist/jquery.fancybox.css"><img src="image/flower_051.jpg" alt="紹介用の画像" /></a>
+						<a href="image/flower_018.jpg" data-fancybox="group"><img src="image/flower_018.jpg" alt="紹介用の画像" /></a>
+						<a href="image/flower_048.jpg" data-fancybox="group"><img src="image/flower_048.jpg" alt="紹介用の画像" /></a>
+						<a href="image/flower_051.jpg" data-fancybox="group"><img src="image/flower_051.jpg" alt="紹介用の画像" /></a>
 					</figure>
 				</div><!--slider-->
 				
@@ -110,7 +106,7 @@
 						<a href="#"><li>Contact</li></a>
 						<a href="#"><li>Privacy</li></a>
 						<a href="#"><li>Access map</li></a>
-					</ul>	
+					</ul>
 					<p class="footer_p">©️2019・F・bloom</p>
 					<div class="sns_footer">
 						<a href="#"><img src="image/twitter.svg" alt="twitterロゴ" class="sns_logo" width="30px" height="30px"></a>
@@ -121,11 +117,10 @@
 			</footer><!--fbloom_footer-->
 	</div><!--wapper-->
 	
-<script src="fancybox-master/dist/jquery.fancybox.css"></script>
+<!--jQueryライブラリ-->
+<script src="fancybox-master/dist/jquery-3.4.1.min.js"></script>
+<!--fancyboxライブラリ-->
 <script src="fancybox-master/dist/jquery.fancybox.min.js"></script>
-<script>
-	$('[data-fancybox]').fancybox();
-</script>
 	
 </body>
 </html>

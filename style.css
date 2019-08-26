@@ -182,7 +182,7 @@ img.sns_logo:hover {
 〜〜〜　aboutのブロック 〜〜〜　*/
 .about_block {
 	max-width: 960px;
-	height: 450px;
+	height: 500px;
 	background: #edf0f040;
 }
 
@@ -210,14 +210,19 @@ img.sns_logo:hover {
 	display: flex;
 	align-items: center;
 	position: relative;
-	top: 30px;
+	top: 20px;
 }
 
 .footer_nav {
 	display: flex;
 	justify-content: space-between;
-	width: 20vw;
+	width: 30vw;
 	margin-left: 70px;
+	list-style: none;
+}
+
+.footer_nav a {
+	text-decoration: none;
 }
 
 .footer_nav li {
@@ -227,7 +232,7 @@ img.sns_logo:hover {
 
 .footer_p {
 	color: #F9F9F9;
-	width: 120px;
+	width: 140px;
 	font-size: 1rem;
 	display: block;
 	margin: 0 auto;
@@ -238,14 +243,9 @@ img.sns_logo:hover {
 	margin-right: 10%;
 }
 
-
 /*
 〜〜〜　余白設定 〜〜〜　*/
-.mb_10 {
-	margin-bottom: 10px;
+.mb_20 {
+	margin-bottom: 20px;
 }
-
-
-
-
 
