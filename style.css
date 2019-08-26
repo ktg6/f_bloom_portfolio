@@ -6,6 +6,7 @@
 html {
 	font-size: 14px;
 }
+
 html *,
 ::before,
 ::after {
@@ -22,7 +23,7 @@ img {
 〜〜〜　全体ブロック 〜〜〜　*/
 #wapper {
 	max-width: 960px;
-	height: 1740px;
+	height: 1615px;
 }
 
 /*
@@ -80,7 +81,7 @@ img.sns_logo:hover {
 〜〜〜　ナビゲーションリンク 〜〜〜　*/
 #header_navlink {
 	position: absolute;
-	top: 70px;
+	top: 80px;
 	max-width: 60vw;
 }
 
@@ -94,7 +95,7 @@ img.sns_logo:hover {
 }
 
 .link_text_nav {
-	font-size: 2.5rem;
+	font-size: 2rem;
     padding-left: 30px;
 	font-family: Avenir, "Helvetica neue", Helvetica, YuGothic, "Yu Gothic", "Hiragino Sans", ヒラギノ角ゴシック, メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
 }
@@ -141,6 +142,18 @@ img.sns_logo:hover {
 #main_contents {
 	max-width: 960px;
 	height: auto;
+}
+
+#fancy_image {
+	max-width: 960px;
+	height: 300px;
+	margin: 50px 0 50px;
+	background: #373232;
+}
+
+.main_image {
+	display: flex;
+	justify-content: space-around;
 }
 
 /*
