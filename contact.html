@@ -39,7 +39,7 @@
 	<h2>お問い合わせフォーム</h2>
     <form action="confirm.php" method="post" name="form" onsubmit="return validate()">
         <p>お問い合わせ内容をご入力の上、「確認画面へ」をクリックしてください。</p>
-        <div>
+        <div id="formblock">
             <div class="contactform_block">
                 <label>お名前<span>必須</span></label><br>
                 <input type="text" name="name" placeholder="例）花田太郎" value="">
@@ -70,7 +70,9 @@
                 <label>お問い合わせ内容<span>必須</span></label>
                 <textarea name="content" rows="10" cols="40" placeholder="お問合せ内容を入力"></textarea>
             </div>
-        </div>
+        </div><!--formblock-->
+</div>
+		
 		<div class="contactform_block">
         <button type="submit">確認画面へ</button>
 		</div>
