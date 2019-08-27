@@ -258,6 +258,17 @@ img.sns_logo:hover {
 
 /*
 〜〜〜　余白設定 〜〜〜　*/
+.pagetop {
+	display: block;
+	position: fixed;
+	width: 50px;
+	top: 450px;
+	left: 850px;
+}
+
+
+/*
+〜〜〜　余白設定 〜〜〜　*/
 .mb_20 {
 	margin-bottom: 20px;
 }
