@@ -158,7 +158,7 @@ img.sns_logo:hover {
 
 /*
 〜〜〜　プランのブロック 〜〜〜　*/
-.plan_contents_block {
+#plan_contents_block {
 	max-width: 960px;
 	height: 400px;
 }
@@ -193,7 +193,7 @@ img.sns_logo:hover {
 
 /*
 〜〜〜　aboutのブロック 〜〜〜　*/
-.about_block {
+#about_block {
 	max-width: 960px;
 	height: 500px;
 	background: #edf0f040;
@@ -257,13 +257,36 @@ img.sns_logo:hover {
 }
 
 /*
-〜〜〜　余白設定 〜〜〜　*/
+〜〜〜　ページトップボタン 〜〜〜　*/
 .pagetop {
 	display: block;
 	position: fixed;
 	width: 50px;
 	top: 450px;
 	left: 850px;
+}
+
+/*
+〜〜〜　コンタクトフォームページ 〜〜〜　*/
+#contactpage_block {
+	max-width: 960px;
+	height: auto;
+	background: #7F6C6D;
+}
+
+#contactpage_block h2 {
+	text-align: center;
+	font-family: Verdana, Geneva, "sans-serif";
+}
+
+#contactpage_block p {
+	text-align: center;
+}
+
+.contactform_block {
+	width: 300px;
+	height: auto;
+	margin: 0 auto;
 }
 
 
