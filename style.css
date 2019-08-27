@@ -37,6 +37,13 @@ img {
 	margin: 10px 0 0 20px;
 }
 
+@media (max-width: 768px){
+	.logo {
+		width: 20%;
+		height: auto;
+	}
+}
+
 /*
 〜〜〜　ナビブロック 〜〜〜　*/
 #fbloom_nav {
@@ -49,24 +56,41 @@ img {
 	justify-content: space-between;
 }
 
+@media (max-width: 768px) {
+	#fbloom_nav {
+		position: absolute;
+		right: 90%;
+	}
+}
+
 /*
 〜〜〜　テキストの説明文 〜〜〜　*/
 .nav_info {
 	display: block;
-	font-size: 1.3rem;
+	font-size: 1rem;
+	font-family: "MS Serif", "New York", "serif";
+	letter-spacing: 0.3rem;
 }
 
 @media (max-width: 768px) {
 	.nav_info {
-		font-size: 1rem;
+		font-size: 40%;
 	}
 }
 
 /*
 〜〜〜　SNSボタン 〜〜〜　*/
 .sns_block {
-	margin-left: 25vw;
+	margin-left: 18vw;
 	display: flex;
+}
+
+@media (max-width: 768px) {
+	.sns_block{
+		width: 30%;
+		position: absolute;
+		left: 100px;
+	}
 }
 
 img.sns_logo {
@@ -82,6 +106,7 @@ img.sns_logo:hover {
 #header_navlink {
 	position: absolute;
 	top: 80px;
+	left: -70px;
 	max-width: 60vw;
 }
 
@@ -98,11 +123,12 @@ img.sns_logo:hover {
 	font-size: 2rem;
     padding-left: 30px;
 	font-family: Avenir, "Helvetica neue", Helvetica, YuGothic, "Yu Gothic", "Hiragino Sans", ヒラギノ角ゴシック, メイリオ, Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+	letter-spacing: 0.3rem;
 }
 
 @media (max-width: 768px) {
 	.link_text_nav {
-	font-size: 1.5rem;
+	font-size: 1rem;
 	}
 }
 
@@ -146,9 +172,21 @@ img.sns_logo:hover {
 
 #fancy_image {
 	max-width: 960px;
-	height: 300px;
+	height: 500px;
 	margin: 50px 0 50px;
-	background: #373232;
+}
+
+#fancy_image h2 {
+	text-align: center;
+	letter-spacing: 0.3rem;
+	margin: 50px 0 50px;
+	color: #4689FF;
+}
+
+#fancy_image p {
+	text-align: center;
+	letter-spacing: 0.2rem;
+	line-height: 3;
 }
 
 .main_image {
@@ -168,6 +206,9 @@ img.sns_logo:hover {
 	text-align: center;
 	margin: 50px 0 50px;
 	padding-top: 20px;
+	letter-spacing: 0.5rem;
+    font-family: fantasy;
+    color: #333333;
 }
 
 .plan_block {
@@ -207,6 +248,8 @@ img.sns_logo:hover {
 .store_info p {
 	text-align: center;
 	font-size: 1.2rem;
+	font-family: -webkit-pictograph;
+	letter-spacing: 0.3rem;
 }
 
 /*
@@ -271,18 +314,23 @@ img.sns_logo:hover {
 #contactpage_block {
 	max-width: 960px;
 	height: auto;
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 #contactpage_block h2 {
-	text-align: center;
-	font-family: Verdana, Geneva, "sans-serif";
+	font-size: 2.5rem;
+    text-align: center;
+    margin: 50px 0 50px;
+    padding-top: 20px;
+    letter-spacing: 0.5rem;
+    font-family: serif;
+    color: #333333;
 }
 
 #contactpage_block p {
 	text-align: center;
-	font-family: Verdana, Geneva, "sans-serif";
-	font-size: 1.2rem;
+	font-family: serif;
+	font-size: 1.1rem;
 }
 
 .contactform_block {
@@ -290,6 +338,9 @@ img.sns_logo:hover {
 	height: auto;
 	margin: 0 auto;
 	padding: 10px 0 10px;
+	letter-spacing: 0.2rem;
+    line-height: 2;
+    font-family: monospace;
 }
 
 /*
