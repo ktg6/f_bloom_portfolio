@@ -271,7 +271,6 @@ img.sns_logo:hover {
 #contactpage_block {
 	max-width: 960px;
 	height: auto;
-	background: #7F6C6D;
 }
 
 #contactpage_block h2 {
@@ -281,12 +280,15 @@ img.sns_logo:hover {
 
 #contactpage_block p {
 	text-align: center;
+	font-family: Verdana, Geneva, "sans-serif";
+	font-size: 1.2rem;
 }
 
 .contactform_block {
-	width: 300px;
+	width: 250px;
 	height: auto;
 	margin: 0 auto;
+	padding: 10px 0 10px;
 }
 
 
