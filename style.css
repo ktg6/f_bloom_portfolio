@@ -198,7 +198,7 @@ img.sns_logo:hover {
 〜〜〜　プランのブロック 〜〜〜　*/
 #plan_contents_block {
 	max-width: 960px;
-	height: 400px;
+	height: 500px;
 }
 
 .font_top {
@@ -224,19 +224,23 @@ img.sns_logo:hover {
 	text-align: center;
 }
 
+.plan_image_block p {
+	font-size: 0.8rem;
+    width: 250px;
+    letter-spacing: 0.2rem;
+    font-family: fantasy;
+}
+
 .plan_image {
 	margin: 0 auto;
 }
 
 .plan_info_text {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
+	font-size: 1rem;
 	letter-spacing: 0.1rem;
     font-family: serif;
     font-weight: bold;
-}
-
-.plan_image_block p {
-	font-size: 1rem;
 }
 
 /*
@@ -310,10 +314,10 @@ img.sns_logo:hover {
 〜〜〜　ページトップボタン 〜〜〜　*/
 .pagetop {
 	display: block;
-	position: fixed;
-	width: 50px;
-	top: 450px;
-	left: 850px;
+    position: relative;
+    width: 50px;
+    top: -10px;
+    left: 90%;
 }
 
 /*
