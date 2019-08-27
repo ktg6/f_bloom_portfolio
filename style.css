@@ -271,6 +271,7 @@ img.sns_logo:hover {
 #contactpage_block {
 	max-width: 960px;
 	height: auto;
+	margin-top: 80px;
 }
 
 #contactpage_block h2 {
@@ -290,7 +291,6 @@ img.sns_logo:hover {
 	margin: 0 auto;
 	padding: 10px 0 10px;
 }
-
 
 /*
 〜〜〜　余白設定 〜〜〜　*/
