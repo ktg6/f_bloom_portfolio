@@ -38,7 +38,7 @@ img {
 
 @media (max-width: 768px){
 	.logo {
-		width: 20%;
+		width: 50%;
 		height: auto;
 	}
 }
@@ -73,7 +73,7 @@ img {
 
 @media (max-width: 768px) {
 	.nav_info {
-		font-size: 40%;
+		display: none;
 	}
 }
 
@@ -88,7 +88,7 @@ img {
 	.sns_block{
 		width: 30%;
 		position: absolute;
-		left: 100px;
+		right: 20px;
 	}
 }
 
@@ -116,6 +116,12 @@ img.sns_logo:hover {
 .nav_link_text {
 	list-style: none;
 	display: flex;
+}
+
+@media (max-width: 768px) {
+	.nav_link_text {
+		display: block;
+	}
 }
 
 .link_text_nav {
@@ -190,6 +196,12 @@ img.sns_logo:hover {
 	font-size: 1rem;
 }
 
+@media (max-width: 768px) {
+	#fancy_image p {
+		font-size: 0.8rem;
+	}
+}
+
 .main_image {
 	display: flex;
 	justify-content: space-around;
@@ -199,7 +211,7 @@ img.sns_logo:hover {
 〜〜〜　プランのブロック 〜〜〜　*/
 #plan_contents_block {
 	max-width: 960px;
-	height: 500px;
+	height: auto;
 }
 
 .font_top {
@@ -215,10 +227,17 @@ img.sns_logo:hover {
 .plan_block {
 	max-width: 960px;
 	height: auto;
-	margin: 0 auto;
 	margin: 50px 0 30px;
 	display: flex;
 	justify-content: space-around;
+}
+
+@media (max-width: 768px) {
+	.plan_block {
+    display: flex;
+    flex-direction: column;
+	height: auto;
+	}
 }
 
 .plan_image_block {
@@ -230,6 +249,7 @@ img.sns_logo:hover {
     width: 250px;
     letter-spacing: 0.2rem;
     font-family: fantasy;
+	margin-bottom: 11.2px;
 }
 
 .plan_image {
@@ -240,8 +260,9 @@ img.sns_logo:hover {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", "sans-serif";
 	font-size: 1rem;
 	letter-spacing: 0.1rem;
-    font-family: serif;
     font-weight: bold;
+	margin: 11px 0 11px;
+	display: block;
 }
 
 /*
@@ -261,6 +282,12 @@ img.sns_logo:hover {
 	font-size: 1.2rem;
 	font-family: -webkit-pictograph;
 	letter-spacing: 0.3rem;
+}
+
+@media (max-width: 768px) {
+	.store_info p {
+		font-size: 1rem;
+	}
 }
 
 /*
@@ -288,6 +315,12 @@ img.sns_logo:hover {
 	list-style: none;
 }
 
+@media (max-width: 768px) {
+	.footer_nav {
+		display: block;
+	}
+}
+
 .footer_nav a {
 	text-decoration: none;
 }
@@ -305,6 +338,14 @@ img.sns_logo:hover {
 	margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+	.footer_p {
+		width: 50px;
+		height: 70px;
+		font-size: 0.8rem;
+	}
+}
+
 .sns_footer {
 	display: flex;
 	margin-right: 10%;
@@ -318,6 +359,13 @@ img.sns_logo:hover {
     width: 50px;
     top: -10px;
     left: 90%;
+}
+
+@media (max-width:768px) {
+	.pagetop {
+		width: 8%;
+		height: auto;
+	}
 }
 
 /*
@@ -338,6 +386,13 @@ img.sns_logo:hover {
     color: #333333;
 }
 
+#contactpage_block p {
+	text-align: center;
+	font-family: serif;
+	font-size: 1.1rem;
+	margin: 15px 0 15px;
+}
+
 #formblock {
 	width: 600px;
     height: auto;
@@ -345,10 +400,17 @@ img.sns_logo:hover {
     border: 2px solid #EFC871;
 }
 
-#contactpage_block p {
-	text-align: center;
-	font-family: serif;
-	font-size: 1.1rem;
+@media (max-width:768px) {
+#formblock label,select,textarea {
+	width: 100%;
+	font-size: 0.8rem;
+	}
+}
+
+@media (max-width:768px) {
+	#formblock {
+	width: 100%;
+	}
 }
 
 .contactform_block {
@@ -359,6 +421,7 @@ img.sns_logo:hover {
 	letter-spacing: 0.2rem;
     line-height: 2;
     font-family: monospace;
+	font-size: 1.0rem;
 }
 
 /*
@@ -385,6 +448,15 @@ img.sns_logo:hover {
 	display: flex;
 	justify-content: space-around;
 	margin: 0 auto;
+}
+
+@media (max-width:768px) {
+	.access_block {
+		width: 100%;
+		display: flex;
+    	flex-direction: column;
+		height: auto;
+	}
 }
 
 .access_textinfo  {
